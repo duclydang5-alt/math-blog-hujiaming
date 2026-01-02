@@ -1,3 +1,12 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+/* 黑客风定制：去除所有圆角 */
+* {
+  border-radius: 0 !important;
+}
+
+/* 稍微增加一点发光效果（可选，不喜欢可以删掉） */
+h1, h2, h3, h4, h5, h6, strong {
+  text-shadow: 0 0 5px rgba(0, 255, 65, 0.6);
+}

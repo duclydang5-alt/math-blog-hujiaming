@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Math Blog",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -23,9 +23,9 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "JetBrains Mono", // 标题用代码字体
+        body: "JetBrains Mono",   // 正文也用代码字体
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
@@ -37,18 +37,16 @@ const config: QuartzConfig = {
           secondary: "#284b63",
           tertiary: "#84a59d",
           highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#000000",       // 背景：纯黑
+          lightgray: "#333333",   // 边框：深灰
+          gray: "#666666",        // 辅助信息：灰色
+          darkgray: "#00ff41",    // 正文：荧光绿
+          dark: "#00ff41",        // 标题：荧光绿
+          secondary: "#008F11",   // 链接：深绿
+          tertiary: "#0D0208",    // 悬停背景
+          highlight: "rgba(0, 255, 65, 0.1)", // 高亮
         },
       },
     },
@@ -88,8 +86,6 @@ const config: QuartzConfig = {
       Plugin.Static(),
       Plugin.Favicon(),
       Plugin.NotFoundPage(),
-      // Comment out CustomOgImages to speed up build time
-      Plugin.CustomOgImages(),
     ],
   },
 }
