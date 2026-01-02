@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Math Blog",
+    pageTitle: "Math-Hu",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
