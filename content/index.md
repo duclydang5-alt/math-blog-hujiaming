@@ -1,6 +1,14 @@
 powered by gemini
 用于上传我的数学笔记
 
+## 📚 笔记目录
+
+- [[工具箱/01分部估计]]
+- [[工具箱/02利用泰勒展开求收敛阶]]
+- [[重要定理/stolz定理]]
+- [[重要定理/Toepliz定理]]
+- [[Heaviside Cover-up Method]]
+
 ### 进入终端：
 cd D:\MyMathBlog\quartz\quartz\
 (tap可达)
@@ -32,3 +40,5 @@ ctrl + c 结束预览
 - 按 `Esc` 退出编辑模式
     
 - 输入 `:wq` 保存并退出
+
+
