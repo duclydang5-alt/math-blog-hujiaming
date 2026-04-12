@@ -5,8 +5,8 @@ powered by gemini
 
 - [[工具箱/01分部估计]]
 - [[工具箱/02利用泰勒展开求收敛阶]]
-- [[重要定理/stolz定理]]
-- [[重要定理/Toepliz定理]]
+- [[stolz定理]]
+- [[Toepliz定理]]
 - [[Heaviside Cover-up Method]]
 
 ### 进入终端：

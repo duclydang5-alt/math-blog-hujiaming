@@ -27,26 +27,26 @@ const config: QuartzConfig = {
         body: "JetBrains Mono",   // 正文也用代码字体
         code: "JetBrains Mono",
       },
-      colors: {
+colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          light: "#f5fdf9",         // 极淡的薄荷底色
+          lightgray: "#d0e8db",     // 浅绿边框
+          gray: "#8fa397",          // 灰色文字
+          darkgray: "#2d4a3e",      // 正文：深绿，保证清晰
+          dark: "#1b3a2b",          // 标题：墨绿
+          secondary: "#00a86b",     // 重点色：鲜艳的翡翠绿 (让主题色更明显)
+          tertiary: "#4ecdc4",      // 鼠标放上去是青绿色
+          highlight: "rgba(0, 168, 107, 0.15)",
         },
         darkMode: {
-          light: "#000000",       // 背景：纯黑
-          lightgray: "#333333",   // 边框：深灰
-          gray: "#666666",        // 辅助信息：灰色
-          darkgray: "#00ff41",    // 正文：荧光绿
-          dark: "#00ff41",        // 标题：荧光绿
-          secondary: "#008F11",   // 链接：深绿
-          tertiary: "#0D0208",    // 悬停背景
-          highlight: "rgba(0, 255, 65, 0.1)", // 高亮
+          light: "#0d1f16",         // 背景：深森林绿 (不再是纯黑！)
+          lightgray: "#1e3b2e",
+          gray: "#6c8c7d",
+          darkgray: "#e0ece6",      // 正文：灰白带点绿
+          dark: "#ffffff",          // 标题：纯白
+          secondary: "#66ffb2",     // 链接：荧光薄荷绿
+          tertiary: "#4ecdc4",
+          highlight: "rgba(102, 255, 178, 0.15)",
         },
       },
     },

@@ -1,0 +1,19 @@
+<svg width="800" height="800" viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+    <g fill="none" stroke="#57a773" stroke-width="1.5" stroke-opacity="0.15">
+        <path d="M100,150 q 50,-50 100,0 t 100,0" />
+        <text x="50" y="100" font-family="serif" font-style="italic" font-size="24">∫ f(x)dx</text>
+        <text x="300" y="200" font-family="serif" font-size="20">∑</text>
+        <text x="150" y="300" font-family="serif" font-style="italic" font-size="22">e^(iπ) + 1 = 0</text>
+        <path d="M600,100 C 650,150 700,50 750,100" />
+        <text x="550" y="250" font-family="serif" font-style="italic" font-size="24">lim(x→∞)</text>
+        <text x="50" y="500" font-family="serif" font-size="28">∇ ⋅ E = ρ/ε₀</text>
+        <text x="400" y="450" font-family="serif" font-style="italic" font-size="22">dy/dx</text>
+        <circle cx="700" cy="400" r="30" />
+        <text x="200" y="650" font-family="serif" font-size="24">A = πr²</text>
+        <text x="550" y="600" font-family="serif" font-style="italic" font-size="20">f'(x)</text>
+        <path d="M50,700 l 100,-100 l 100,100" />
+        <text x="450" y="750" font-family="serif" font-size="26">∮ B⋅dl = μ₀I</text>
+        <text x="350" y="50" font-family="serif" font-style="italic" font-size="20">dx</text>
+        <text x="700" y="700" font-family="serif" font-style="italic" font-size="22">∫</text>
+    </g>
+</svg>

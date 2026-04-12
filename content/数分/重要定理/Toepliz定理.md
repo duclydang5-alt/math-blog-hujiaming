@@ -21,9 +21,9 @@ $n \rightarrow \infty$时，左边是有限个无穷小的和，右边是1乘以
 > 则变换 $t_n = \sum_{k=1}^{\infty} c_{n,k} a_k$ 满足 $\lim_{n \to \infty} t_n = L$
 
 #### 第一步：证明 $L = 0$ 的情况
-**已知**：$\lim_{k \to \infty} a_k = 0$，以及条件2, 4。
-**要证明**：$\lim_{n \to \infty} t_n = 0$。
-根据极限定义，对于任意 $\epsilon > 0$，必须找到 $N$，使得 $n > N$ 时恒有 $|t_n| < \epsilon$。
+已知：$\lim_{k \to \infty} a_k = 0$，以及条件2, 4。
+要证明：$\lim_{n \to \infty} t_n = 0$。
+根据极限定义，对于任意 $\epsilon > 0$，必须找到 $N$，使得 $n > N$ 时恒有 $|t_n| < \epsilon$
 **证明**：
 分析 $a_k$：
    - 由 $\lim_{k \to \infty} a_k = 0$，对任意 $\epsilon > 0$，存在正整数 $K$，使得当 $k > K$ 时，$|a_k| < \frac{\epsilon}{2M}$
@@ -35,7 +35,7 @@ $$
    |t_n| \le \underbrace{\sum_{k=1}^{K} |c_{n,k}| |a_k|}_{\text{头部}} + \underbrace{\sum_{k=K+1}^{\infty} |c_{n,k}| |a_k|}_{\text{尾部}}
    $$
 Part 1:
-**控制尾部**：当 $k > K$ 时，$|a_k| < \frac{\epsilon}{2M}$
+控制尾部：当 $k > K$ 时，$|a_k| < \frac{\epsilon}{2M}$
 $\begin{aligned} \text{尾部} &= \sum_{k=K+1}^{\infty} |c_{n,k}| |a_k| \\& < \sum_{k=K+1}^{\infty} |c_{n,k}| \left( \frac{\epsilon}{2M} \right)\\&= \frac{\epsilon}{2M} \sum_{k=K+1}^{\infty} |c_{n,k}| \\&\le \frac{\epsilon}{2M} \sum_{k=1}^{\infty} |c_{n,k}| \end{aligned}$
 由条件4，$\sum_{k=1}^{\infty} |c_{n,k}| < M$
 故 $\text{尾部} < \frac{\epsilon}{2M} \cdot M = \frac{\epsilon}{2}$
